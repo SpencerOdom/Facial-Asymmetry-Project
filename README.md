@@ -37,12 +37,14 @@ Facial asymmetry can serve as a significant biomarker in medical diagnostics, pa
    ```bash
    git clone https://github.com/yourusername/face-asymmetry-detector.git
    cd face-asymmetry-detector
-Install dependencies:
 
-bash
-Copy
-Edit
-pip install mediapipe opencv-python matplotlib numpy
+   
+Install dependencies:
+   ```bash 
+   pip install mediapipe opencv-python matplotlib numpy
+
+
+
 Add your input face image (e.g., newface.jpg) to the project folder.
 
 Run the Jupyter notebook or Python script to analyze facial asymmetry.
