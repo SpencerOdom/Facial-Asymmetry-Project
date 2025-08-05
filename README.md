@@ -32,15 +32,11 @@ Facial asymmetry can serve as a significant biomarker in medical diagnostics, pa
 
 ## 📂 Usage
 
-1. Clone this repository:
+1. Clone this repository & download libraries:
 
    ```bash
-   git clone https://github.com/yourusername/face-asymmetry-detector.git
-   cd face-asymmetry-detector
-
-   
-Install dependencies:
-   ```bash 
+   git clone https://github.com/SpencerOdom/Facial-Asymmetry-Project.git
+   cd Facial-Assymetry-Project
    pip install mediapipe opencv-python matplotlib numpy
 
 
