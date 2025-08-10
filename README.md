@@ -96,6 +96,11 @@ After the countdown, the system will take a snapshot, calculate your facial asym
 
 Press any key on the result window or ‘q’ in the live webcam window to exit.
 
+## Demo Video 🎥
+
+[![Watch the demo](https://img.youtube.com/vi/r35FZm15Ssg/maxresdefault.jpg)](https://youtu.be/r35FZm15Ssg)
+
+Click the image above to watch the demonstration on YouTube.
 
 🙋‍♂️ About Me
 I developed this project as part of my interest in computer vision. Feel free to explore the notebook and reach out with questions or feedback!
