@@ -58,4 +58,4 @@ Asymmetry Score (px)	Interpretation
 150+	Significant asymmetry or pose issues
 
 🙋‍♂️ About Me
-I developed this project as part of my interest in computer vision and medical imaging. Feel free to explore the notebook and reach out with questions or feedback!
+I developed this project as part of my interest in computer vision. Feel free to explore the notebook and reach out with questions or feedback!
