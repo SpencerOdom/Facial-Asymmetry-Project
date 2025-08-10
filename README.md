@@ -18,6 +18,19 @@ Facial asymmetry can serve as a significant biomarker in medical diagnostics, pa
 - Computes an overall asymmetry score (in pixels) indicating degree of facial asymmetry  
 - Visualizes deviations with color-coded overlays for easy interpretation  
 
+8/9/25
+- Added additional notebook that includes:
+     - Welcome screen
+     - Live camera feed
+     - Prompts when the user has not aligned their face with the camera
+     - countdown timer and snapshot feature
+     - Asymmetry score evaluation 
+
+Needs much improvement, but a good base to work from. My camera quality/ lighting hinders performance, but it's realistic to what users have at home.
+
+Future Updates:
+To help offset potential lighting/environmental factors, I will add additional pairs of symmetrical points to use in calculating the final asymmetry score, taken from the user's face.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -56,6 +69,33 @@ Asymmetry Score (px)	Interpretation
 30–80	Mild asymmetry (normal variation)
 80–150	Noticeable asymmetry
 150+	Significant asymmetry or pose issues
+
+## Instructions to Run the Live Camera Notebook
+
+### Prerequisites
+- Python installed  
+- Webcam connected and accessible  
+- Required libraries installed:  
+  ```bash
+  pip install opencv-python mediapipe numpy
+
+
+Open the notebook (Virtual_Neurologist_LiveCam.ipynb) in Jupyter Notebook or JupyterLab.
+
+Run the notebook cells sequentially until you reach the cell that opens the webcam feed.
+
+When the webcam window opens:
+
+Position your face centered horizontally in front of the camera.
+
+Follow the on-screen instructions to adjust your face position.
+
+Hold still once the countdown starts (5 seconds) to let the system capture your image.
+
+After the countdown, the system will take a snapshot, calculate your facial asymmetry score, and show the result with an interpretation.
+
+Press any key on the result window or ‘q’ in the live webcam window to exit.
+
 
 🙋‍♂️ About Me
 I developed this project as part of my interest in computer vision. Feel free to explore the notebook and reach out with questions or feedback!
